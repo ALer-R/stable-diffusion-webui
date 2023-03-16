@@ -2,7 +2,7 @@
 1. 安装 [Anaconda](https://www.anaconda.com/)
 2. 安装 [Python 3.10.6](https://www.python.org/downloads/windows/), 并添加Python到配置环境"PATH"
 3. 安装 [git](https://git-scm.com/download/win).
-4. 安装环境对应的[PyTorch](https://pytorch.org/get-started/locally/) 命令如： ```pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117```
+4. 安装环境对应的[PyTorch](https://pytorch.org/get-started/locally/) 命令如： ```conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia```
 5. 下载 stable-diffusion-webui 代码, 如: `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`.
 6. 非管理员用户运行目录下的 `webui-user.bat`
 
