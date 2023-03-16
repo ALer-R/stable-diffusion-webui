@@ -8,6 +8,9 @@
 
 ## 错误处理
 使用的命令皆需要在目录```stable-diffusion-webui\venv\Scripts\```的```python.exe```、```pip.exe```
+
+**80%以上的失败，都是因为没科学上网**
+
 1. 无法安装gfpgan
 > 原因:是网络问题，就算已经科学上网，并设置为全局，也无法从github上下载源代码，从而导致install失败。
 
